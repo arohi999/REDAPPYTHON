@@ -529,14 +529,14 @@ def rcrack1(uid,pwx,tl):
 
             "login":"Log In"}
 
-            header_freefb = {"authority": 'm.alpha.facebook.com',
+            header_freefb ={"authority":'m.alpha.facebook.com',
             "method": 'GET',
             "scheme": 'https',
            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
     # 'cookie': 'sb=Xq4iZonTrfV_leYf6nPacQet; datr=Xq4iZu2ozZ19Gkb2TVJOaDkd; ps_n=1; ps_l=1; locale=en_US; dpr=3.752533197402954; m_pixel_ratio=3.752533197402954; x-referer=eyJyIjoiL2Jvb2ttYXJrcy8%2FcGFpcHY9MCZlYXY9QWZhcmw4enVjRG9LSWx1bktIZWt0amVkOXk0UGczbjlKdm5zSDdkMFVvTEFzZlI5U1BOR1N1SlljYXhFb2FSSm9hNCIsImgiOiIvYm9va21hcmtzLz9wYWlwdj0wJmVhdj1BZmFybDh6dWNEb0tJbHVuS0hla3RqZWQ5eTRQZzNuOUp2bnNIN2QwVW9MQXNmUjlTUE5HU3VKWWNheEVvYVJKb2E0IiwicyI6Im1vYmlsZSJ9; wd=685x1257; fr=0xfDlbIj9EYumAA8K.AWWDLnQEtgXfmRwI28Qmh9FOQ4c.BmIq5e..AAA.0.0.BmI3BB.AWWOSdxX38Y',
     'dpr': '2.625',
-    'referer': 'https://m.facebook.com/?stype=lo&deoia=1&jlou=AfcCKgbCyu-O9vkVMbrh_bArL_pWu9FmfVjxIxawK9F7ZFP6tIdle1FGfAMiPHluZqBj4oZiGwb7ISOqD4HQLWORpRSQB1UI7Gjl7JcFnU6_VQ&smuh=47344&lh=Ac8mithlO3sGw27kpIE&_rdc=1&_rdr&refsrc=deprecated',
+    'referer': 'https://m.alpha.facebook.com/?stype=lo&deoia=1&jlou=AfcCKgbCyu-O9vkVMbrh_bArL_pWu9FmfVjxIxawK9F7ZFP6tIdle1FGfAMiPHluZqBj4oZiGwb7ISOqD4HQLWORpRSQB1UI7Gjl7JcFnU6_VQ&smuh=47344&lh=Ac8mithlO3sGw27kpIE&_rdc=1&_rdr&refsrc=deprecated',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="124", "Google Chrome";v="124"',
     'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0", "Chromium";v="124.0.6308.196", "Google Chrome";v="124.0.6308.196"',
