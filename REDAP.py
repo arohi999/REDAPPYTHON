@@ -503,7 +503,7 @@ def rcrack1(uid,pwx,tl):
 
             session = requests.Session()
 
-            sys.stdout.write('\r[\x1b[\033[1;91mR\033[1;32mE\033[1;91m'D\033[1;97m] > [%s/%s] > [OK\033[1;97m:-\033[1;92m%s\033[1;97m] - [CP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write('\r[\x1b[\033[\033[1;32mRED] > [%s/%s] > [OK\033[1;97m:-\033[1;92m%s\033[1;97m] - [CP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))),
 
             sys.stdout.flush()
 
@@ -594,7 +594,7 @@ def rcrack1(uid,pwx,tl):
 
         loop+=1
 
-        sys.stdout.write(f'\r\033[\0[\x1b[\033[1;32mR\033[1;91mE\033[1;32mD] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[\0[\x1b[\033[\033[1;91mRED] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
 
         sys.stdout.flush()
 
